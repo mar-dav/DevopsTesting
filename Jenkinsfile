@@ -4,7 +4,7 @@ pipeline{
     tools {
         maven 'maven'
     }
-    
+
     stages {
         // Specify various stage with in stages
 
@@ -30,3 +30,5 @@ pipeline{
 
             }
         }
+    }
+}
